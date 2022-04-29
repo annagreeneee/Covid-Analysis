@@ -1,0 +1,14 @@
+Package: RFinalProjectPackage
+Type: Package
+Title: COVID-19 Confirmed Cases and Deaths in European Countries
+Version: 0.0.0.9000
+Author: Anna Greene
+Maintainer: annagreene@usf.edu
+Description: This R package uses functions to explain and visualize the confirmed cases, deaths, and death rate of COVID-19 cases in European countries. 
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
