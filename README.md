@@ -10,7 +10,7 @@ Author: Anna Greene
 
 **Functions**: I have five total functions within this package. The first two functions calculate the basic statistics of the confirmed COVID-19 cases and the deaths of those confirmed cases. The next two functions display a box plot of the confirmed cases and the deaths of those confirmed cases. These functions help you visualize which countries had a high COVID-19 rate and a high death rate. The last function calculates the death rate in all European countries combined, showing that there is a 6% death rate. 
 
-**Conclusion**: This package has motivated me to learn more on how to analyze and visulaize statistics with R. I thoroughly enjoyed making this, and I hope you guys enjoy it too!
+**Conclusion**: This package has motivated me to learn more on how to analyze and visualize statistics with R. I thoroughly enjoyed making this, and I hope you guys enjoy it too!
 
 **GitHub Link**: https://github.com/annagreeneee/R-Final-Project-Package
 
