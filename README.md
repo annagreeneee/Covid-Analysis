@@ -1,10 +1,10 @@
 
-## COVID-19 Confirmed Cases and Deaths in European Countries
+## 2019 COVID-19 Confirmed Cases and Deaths in European Countries
 
 Author: Anna Greene
 
 
-**Description**: This package uses functions to analyze and visualize COVID-19 confirmed cases and deaths from those confirmed cases in European countries. This package helps you determine which countries have a high COVID-19 rate and high death rate.
+**Description**: This package uses functions to analyze and visualize COVID-19 confirmed cases and deaths from those confirmed cases in European countries in 2019. This package helps you determine which countries have a high COVID-19 rate and high death rate.
 
 **Motivation**: A day before I started this project, I tested positive for COVID-19 for the first time. So, I decided to find data based on the virus and use that to educate myself and others.
 
