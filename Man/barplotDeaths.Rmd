@@ -1,0 +1,20 @@
+---
+title: "barplotDeaths"
+author: "Anna Greene"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r}
+mybarplotdeaths <- function(barplot2){
+  ggplot(Europe_Covid, aes(x = Country.Region, y = Deaths)) +
+    geom_bar(stat = "identity",fill = "#3C963C") +
+    coord_flip() +
+    theme_bw() +
+    labs(x = "Country",
+         y = "Deaths",
+         title = "Deaths of Confirmed Cases in European Countries")
+}
+```
+
+This function also creates a bar graph that shows the European countries on the Y-axis and the number of deaths of the confirmed cases on the X-axis. This function helps you visulaize which countries had have high death rates and which do not.

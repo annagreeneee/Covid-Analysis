@@ -1,0 +1,17 @@
+---
+title: "Division"
+author: "Anna Greene"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r}
+xysteps <- function(x,y){
+
+  (x/y)
+
+}
+```
+
+This function does a calculation and divides the confirmed cases by the deaths. By doing this calculation, we find out that there is a 6% death rate in European countries.
+

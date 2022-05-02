@@ -1,0 +1,18 @@
+---
+title: "basicStatsConfirmed"
+author: "Anna Greene"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r}
+basicStatsConfirmed <- function(oddish){
+  titles <- c("Mean", "Median","Variance", "Min", "Max")
+  newDataFrame <- data.frame(1:5, rownames = titles)
+  names(newDataFrame)[1] <- "Basic Statistics"
+  newDataFrame[1] <- c(mean(oddish), median(oddish), var(oddish), min(oddish), max(oddish))
+  newDataFrame
+}
+```
+
+I created this basic statistics function that shows the mean, median, variance, minimum, and maximum of the confirmed COVID-19 cases in European countries. I named it "Oddish" because that is my favorite Pokemon!

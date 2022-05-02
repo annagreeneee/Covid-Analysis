@@ -1,0 +1,20 @@
+---
+title: "barplotConfirmed"
+author: "Anna Greene"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r}
+mybarplotconfirmed <- function(barplot){
+  ggplot(Europe_Covid, aes(x = Country.Region, y = Confirmed)) +
+  geom_bar(stat = "identity",fill = "#3C963C") +
+  coord_flip() +
+  theme_bw() +
+  labs(x = "Country",
+       y = "Confirmed",
+       title = "Confirmed Cases in European Countries")
+}
+```
+
+This function creates a bar graph that shows the European countries on the Y-axis and the number of confirmed COVID-19 cases on the X-axis. This function helps you visualize which countries have many cases and which do not.
